@@ -8,8 +8,8 @@ From **climate‑resilient coastal restoration** to **adaptive urban regeneratio
 Through continuous self‑directed learning—such as **QGIS** and **spatial data analysis** training—I aim to pair **technical proficiency with creative foresight** in advancing equitable and climate‑adaptive planning frameworks.
 
 ## Progress Tracking Dashboard
-**Current Status:** Week 0 - Bootcamp starting (Feb 25, 2026)  
-**Total Hours:** 0/60  
+**Current Status:** Week 1 - Bootcamp starting (Feb 25, 2026)  
+**Total Hours:** 2.5/60  
 **Projects Completed:** 0/3  
 **Next Milestone:** Week 1 QGIS foundations complete
 
