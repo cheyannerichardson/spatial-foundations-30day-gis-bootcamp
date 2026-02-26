@@ -41,22 +41,21 @@ This journey expands my ability to translate complex spatial and environmental d
 
 | Day | Date | Focus | Tasks Completed | Hours | Project Progress | Key Output |
 |-----|------|-------|-----------------|-------|------------------|------------|
-| **1** | Feb 26 | Python MOOC 1-2 + Coastal Climate DB Setup | Python MOOC 1-2 (variables/loops), coastal climate DB imported + initial SQL queries | - | Project 1: Data imported | SQL scripts + cleaned CSVs |
-| **2** | Feb 27 | Excel ETL + Python MOOC 3-4 | Power Query cleaning, pivot tables, sea-level projections, Python functions/files | - | Project 1: Excel workbook | Excel vulnerability analysis |
-| **3** | Feb 28 | Tableau Sprint + Python MOOC 5-6 | Tableau joins/filters, lighthouse dashboard prototype, Python strings/sets | - | **Project 1** → **Tableau** | Live dashboard prototype |
-| **4** | Feb 29 | Project 1 Polish + Python MOOC 7-8 | Finalize Project 1 dashboard, Python dicts/debugging | - | **Project 1 COMPLETE** | Published dashboard + summary |
-| **5** | Mar 1 | Tableau Advanced + Python MOOC 9-10 | Seawall calculated fields, Python methods/objects | - | **Project 2** → **Tableau** | Trail connectivity dashboard |
-| **6** | Mar 2 | Project 2 Completion + Python MOOC 11-12 | Publish seawall dashboard, Python pandas intro | - | **Project 2 COMPLETE** | Interactive public dashboard |
-| **7** | Mar 3 | Python Automation + MOOC 13-14 | Hanok ventilation scripts, GeoPandas basics | - | **Project 3** → **Python** | Jupyter notebook draft |
-| **8** | Mar 4 | Python MOOC Complete + Project 3 | Finish MOOC Parts 15-end, finalize Hanok analysis | - | **Project 3 COMPLETE** | Full Python automation |
-| **9** | Mar 5 | Portfolio Synthesis | All READMEs, high-res exports, proposal drafts | - | Portfolio integration | Client-ready case studies |
-| **10** | Mar 6 | Final Review & Publish | Tableau Public deployment, repo polish | - | **FULL BOOTCAMP** | Live portfolio launch |
+| **1** | Feb 27 | Python MOOC 1-2 + Coastal Climate DB Setup | Python MOOC 1-2 (variables/loops), coastal climate DB imported + initial SQL queries | - | Project 1: Data imported | SQL scripts + cleaned CSVs |
+| **2** | Feb 28 | Excel ETL + Python MOOC 3-4 | Power Query cleaning, pivot tables, sea-level projections, Python functions/files | - | Project 1: Excel workbook | Excel vulnerability analysis |
+| **3** | Feb 29 | Tableau Sprint + Python MOOC 5-6 | Tableau joins/filters, lighthouse dashboard prototype, Python strings/sets | - | **Project 1** → **Tableau** | Live dashboard prototype |
+| **4** | Mar 1 | Project 1 Polish + Python MOOC 7-8 | Finalize Project 1 dashboard, Python dicts/debugging | - | **Project 1 COMPLETE** | Published dashboard + summary |
+| **5** | Mar 2 | Tableau Advanced + Python MOOC 9-10 | Seawall calculated fields, Python methods/objects | - | **Project 2** → **Tableau** | Trail connectivity dashboard |
+| **6** | Mar 3 | Project 2 Completion + Python MOOC 11-12 | Publish seawall dashboard, Python pandas intro | - | **Project 2 COMPLETE** | Interactive public dashboard |
+| **7** | Mar 4 | Python Automation + MOOC 13-14 | Hanok ventilation scripts, GeoPandas basics | - | **Project 3** → **Python** | Jupyter notebook draft |
+| **8** | Mar 5 | Python MOOC Complete + Project 3 | Finish MOOC Parts 15-end, finalize Hanok analysis | - | **Project 3 COMPLETE** | Full Python automation |
+| **9** | Mar 6 | Portfolio Synthesis | All READMEs, high-res exports, proposal drafts | - | Portfolio integration | Client-ready case studies |
+| **10** | Mar 7 | Final Review & Publish | Tableau Public deployment, repo polish | - | **FULL BOOTCAMP** | Live portfolio launch |
 
 ## Projects Showcase
 1. **[Coastal Lighthouse Restoration]**: Historical site vulnerability dashboard using SQL + Excel
 2. **[Stanley Park Seawall Redevelopment]**: Tableau‑based adaptive trail analytics
 3. **[Hanok Urban Regeneration]**: Python‑powered study of traditional spatial systems
-
 
 ## Next Steps
 
