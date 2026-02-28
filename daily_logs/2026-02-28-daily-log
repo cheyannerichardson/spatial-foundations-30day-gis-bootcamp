@@ -1,0 +1,93 @@
+# GitHub Daily Log – February 28, 2026  
+**Project:** Coastal Lighthouse Vulnerability (popSQL Environment)
+
+---
+
+## Work Completed
+
+- **Created Core Table:** Implemented `lighthouse_sites` table structure aligned with NOAA, USCG, and USACE specifications.  
+  - Included detailed geospatial metadata (latitude/longitude: EPSG 4326, vertical datums NAVD88/WGS84).  
+  - Defined constraints for geotechnical classification, climate hazard indices, and audit trail fields.  
+  - Added spatial and attribute indexes on location and elevation for faster CVI (Coastal Vulnerability Index) queries.  
+
+- **Schema Updates:**  
+  - Modified `lighthouse_id` datatype from `VARCHAR(2)` → `VARCHAR(10)` for compatibility with ARLHS and NOAA identifiers.  
+  - Reworked foundation type constraint to support updated classifications (`reinforced_concrete`, `granite_block`, etc.).  
+
+- **Seed Data Inserted:**  
+  Added initial dataset of 5 Pacific Northwest U.S. lighthouse sites:  
+  - Patos Island  
+  - Destruction Island  
+  - Cape Flattery  
+  - New Dungeness  
+  - Turn Point  
+
+- **Verification:**  
+  - Verified schema via `SHOW CREATE TABLE lighthouse_sites;`  
+  - Validated output ordering by `lighthouse_name` showing key site elevation and storm metrics.
+
+---
+
+## Standards and Documentation Notes
+
+The `lighthouse_sites` schema follows recognized U.S. coastal engineering and geospatial data standards to ensure precision, consistency, and long‑term interoperability:
+
+- **Identification and Source Standards:**  
+  - **ARLHS World List of Lights (NOAA/USCG recognized):** Provides standardized lighthouse identifiers (`lighthouse_id`) consistent with the U.S. Coast Guard Light List. Ensures every record matches an authoritative, globally recognized site.  
+  - **NOAA CO-OPS Tide Gauge Codes:** The `tide_gauge_station` field uses official 7‑digit NOAA station numbers (e.g., *9449828*) to link each site to nearby verified tide and sea‑level observations.  
+
+- **Geospatial Reference Frameworks:**  
+  - **WGS84 (EPSG:4326):** Defines latitude and longitude for global coordinate consistency across NOAA and GIS systems.  
+  - **NAVD88 (NOAA/NOS Vertical Datum):** Sets the baseline for ground and elevation values, ensuring centimeter‑level vertical accuracy.  
+  - Together, these datums standardize spatial reference for mapping, analysis, and integration with other federal coastal datasets.  
+  - Constraints in the schema (`vertical_datum` and `horizontal_datum` checks for NAVD88, MHHW, MHW, MTL, MLW, WGS84, NAD83) enforce compliance with NOAA and FGDC practices.
+
+- **Structural and Geotechnical Classification:**  
+  - **USACE Coastal Engineering Manual (CEM, Part V‑6):** Defines permitted `foundation_type` values to reflect recognized engineering categories such as *reinforced concrete, granite block, stone masonry,* etc.  
+  - **NPS Historical Lighthouse Preservation Handbook:** Supplements classification by aligning materials and methods with historic preservation standards, useful for restoration and condition‑rating studies.
+
+- **Metadata and Data Quality (ISO 19115):**  
+  - Fields such as `data_source`, `geospatial_accuracy_m`, and `last_updated` record the origin, accuracy, and change history of each dataset.  
+  - Accuracy values represent *circular error probable* measurements, while automated timestamps (`CURRENT_TIMESTAMP`) provide a transparent audit trail for all edits and imports.
+
+- **Spatial Optimization:**  
+  - Indexes on latitude, longitude, elevation, and tide‑gauge fields speed up queries used in Coastal Vulnerability Index (CVI) and Modified CVI (MCVI) calculations, enhancing model performance and scalability.
+  
+These standards collectively ensure that every lighthouse record is geospatially precise, historically consistent, and scientifically credible—fully interoperable with NOAA, USACE, and NPS systems and ready for use in coastal hazard and preservation modeling.
+
+---
+
+## Next Steps (Planned for February 29, 2026)
+
+- Build **MCVI (Modified Coastal Vulnerability Index)** calculation module in popSQL.  
+- Integrate NOAA/IPCC hazard projections to produce site-level flood and storm exposure scores.  
+- Test and validate MCVI logic on existing lighthouse dataset for baseline ranking and accuracy.
+
+---
+
+## Proposed Commit Message
+
+**Commit Title:**  
+`create NOAA–USACE compliant lighthouse schema with ARLHS and NPS foundation taxonomy`
+
+**Extended Description:**  
+- Added full schema for `lighthouse_sites` adhering to NOAA NAVD88/WGS84 standards  
+- Integrated ARLHS identifiers, tide gauge codes, ISO 19115 metadata, and USACE foundation classifications  
+- Indexed geospatial fields for CVI analytics  
+- Seeded initial lighthouse dataset for Pacific Northwest region  
+- Prepared for MCVI vulnerability index model development in next phase
+
+---
+
+## Grant Data Alignment Summary
+
+The `lighthouse_sites` schema design supports the **FAIR Data Principles (Findable, Accessible, Interoperable, Reusable)** and aligns with NOAA and federal open‑data mandates:
+
+- **Findable:** Each lighthouse record is uniquely identified via ARLHS and NOAA tide gauge codes, ensuring global interoperability and consistent lookup within public data repositories.  
+- **Accessible:** Data stored in SQL format compatible with PopSQL and NOAA’s IOOS data dissemination frameworks, facilitating seamless integration with coastal monitoring APIs.  
+- **Interoperable:** Field constraints, coordinate systems (EPSG:4326, NAVD88), and metadata fields comply with ISO 19115 and FGDC geospatial interoperability standards.  
+- **Reusable:** Metadata provenance (`data_source`, accuracy metrics, timestamps) ensures traceability and auditability, meeting reproducibility criteria for federally funded coastal hazard research.  
+
+This approach guarantees that future MCVI vulnerability modeling results meet NOAA and NSF grant data‑management compliance requirements while enabling transparent coastal risk assessment workflows.
+
+---
