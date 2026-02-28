@@ -1,7 +1,7 @@
-# Spatial Foundations: 10‑Day Intensive Data Analytics Bootcamp
+# Spatial Foundations: 14‑Day Intensive Data Analytics Bootcamp
 
 I’m an emerging data analyst focused on the intersections of **urban design, heritage preservation, and environmental resilience**.  
-Through this self‑guided 30‑day bootcamp, I’m strengthening my technical foundation—advancing from **SQL and Excel** to **Python and Tableau**—while applying each skill to meaningful, place‑based research and design projects.
+Through this self‑guided 14‑day bootcamp, I’m strengthening my technical foundation—advancing from **SQL and Excel** to **Python and Tableau**—while applying each skill to meaningful, place‑based research and design projects.
 
 My approach combines technical rigor with creative vision. By analyzing historical, urban, and climate datasets, I aim to support **climate‑adaptive restoration and regenerative city planning**.  
 This journey expands my ability to translate complex spatial and environmental data into insights that promote **cultural continuity and equitable urban resilience**.
@@ -20,12 +20,12 @@ This journey expands my ability to translate complex spatial and environmental d
 
 ## Progress Tracking Dashboard
 
-**Duration:** 10 consecutive days (Feb 27 – Mar 7, 2026)  
-**Pace:** 6–9 hrs/day (~70 hrs total)  
+**Duration:** 10 consecutive days (Feb 27 – Mar 13, 2026)  
+**Pace:** 4-7 hrs/day (~70 hrs total)  
 **Goal:** Build production‑ready data analytics skills (SQL → Excel → Tableau → Python) and complete 3 portfolio projects on heritage, coastal, and urban themes.
 
 **Current Status:** Bootcamp starting (Feb 27, 2026)  
-**Total Hours:** 5/70  
+**Total Hours:** 10/70  
 **Projects Completed:** 0/3  
 
 ## Skills Acquired
@@ -41,16 +41,21 @@ This journey expands my ability to translate complex spatial and environmental d
 
 | Day | Date | Focus | Tasks Completed | Hours | Project Progress | Key Output |
 |-----|------|-------|-----------------|-------|------------------|------------|
-| **1** | Feb 27 | Python MOOC 1–2 + Excel Decision Matrix | Python fundamentals (variables, loops); build Excel decision matrix for dataset evaluation; clean coastal climate CSVs and validate data types | 7 hrs | Project 1: Cleaned datasets ready for import | Cleaned CSVs & Excel decision matrix |
-| **2** | Feb 28 | Python MOOC 3–4 + SQL Scripting | Learn Python functions and file handling; set up coastal climate database; import cleaned CSVs; execute initial SQL queries and schema validation | | Project 1: Data successfully imported | SQL scripts + initial query results |
-| **3** | Feb 29 | Tableau Sprint + Python MOOC 5-6 | Tableau joins/filters, lighthouse dashboard prototype, Python strings/sets | - | **Project 1** → **Tableau** | Live dashboard prototype |
-| **4** | Mar 1 | Project 1 Polish + Python MOOC 7-8 | Finalize Project 1 dashboard, Python dicts/debugging | - | **Project 1 COMPLETE** | Published dashboard + summary |
-| **5** | Mar 2 | Tableau Advanced + Python MOOC 9-10 | Seawall calculated fields, Python methods/objects | - | **Project 2** → **Tableau** | Trail connectivity dashboard |
-| **6** | Mar 3 | Project 2 Completion + Python MOOC 11-12 | Publish seawall dashboard, Python pandas intro | - | **Project 2 COMPLETE** | Interactive public dashboard |
-| **7** | Mar 4 | Python Automation + MOOC 13-14 | Hanok ventilation scripts, GeoPandas basics | - | **Project 3** → **Python** | Jupyter notebook draft |
-| **8** | Mar 5 | Python MOOC Complete + Project 3 | Finish MOOC Parts 15-end, finalize Hanok analysis | - | **Project 3 COMPLETE** | Full Python automation |
-| **9** | Mar 6 | Portfolio Synthesis | All READMEs, high-res exports, proposal drafts | - | Portfolio integration | Client-ready case studies |
-| **10** | Mar 7 | Final Review & Publish | Tableau Public deployment, repo polish | - | **FULL BOOTCAMP** | Live portfolio launch |
+| **Day** | **Date** | **Focus** | **Core Tasks** | **Hours** | **Project Milestone** | **Deliverables** |
+| **1** | Feb 27 | Excel Decision Matrix + Data Cleaning | Build and test Excel decision matrix; clean coastal climate CSVs and validate data types | 5 hrs | Project 1 data ready for import | Cleaned CSVs & Excel matrix |
+| **2** | Feb 28 | SQL Setup & Basics | Create coastal climate database; import cleaned CSVs; run basic SELECT/INSERT queries | 5 hrs | DB initialized | SQL schema + import logs |
+| **3** | Mar 1 | Advanced SQL + Validation | Work with joins, GROUP BY, and views; validate schema integrity |-| Verified data warehouse | Advanced SQL scripts |
+| **4** | Mar 2 | Python MOOC 1–2 + Tableau Sprint | Python fundamentals (variables, loops); connect Tableau to SQL DB; build first climate visualization |- | Project 1 → Tableau phase | Dashboard prototype |
+| **5** | Mar 3 | Project 1 Polish + Python MOOC 3–4 | Refine Tableau dashboard; Python functions and file handling | - | **Project 1 COMPLETE** | Published dashboard + summary |
+| **6** | Mar 4 | Tableau Advanced + Python MOOC 5–6 | Develop calculated fields, improve dashboard design; Python strings/sets | - | **Project 2 → Tableau** | Trail connectivity setup |
+| **7** | Mar 5 | Tableau Project Build | Construct main Project 2 visuals; layout iteration | - | In progress | Dashboard v1 |
+| **8** | Mar 6 | Project 2 Completion + Python MOOC 7–8 | Finalize dashboard; learn Python dicts/debugging | - | **Project 2 COMPLETE** | Public dashboard |
+| **9** | Mar 7 | Python Automation + MOOC 9–10 | Begin automation scripts; study Python methods/objects | - | **Project 3 → Python** | Jupyter workflows |
+| **10** | Mar 8 | Python MOOC 11–12 + GeoPandas | Use Pandas on spatial data (Hanok ventilation); begin mapping | - | Project 3 In-progress | Cleaning + map notebooks |
+| **11** | Mar 9 | Python MOOC 13–14 | Automate data exports, add error handling | - | Project 3 Testing | Verified Python scripts |
+| **12** | Mar 10 | Python MOOC 15–End + Integration | Finish MOOC; unify Python + Tableau + SQL | - | **Project 3 COMPLETE** | Cross-platform system |
+| **13** | Mar 11 | Portfolio Synthesis | Prepare READMEs, exports, and proposal drafts | - | Portfolio integration | Case studies |
+| **14** | Mar 12 | Final Review & Publish | Deploy to Tableau Public, finalize
 
 ## Projects Showcase
 1. **[Coastal Lighthouse Restoration]**: Historical site vulnerability dashboard using SQL + Excel
