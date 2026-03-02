@@ -44,7 +44,7 @@ This journey expands my ability to translate complex spatial and environmental d
 | **Day** | **Date** | **Focus** | **Core Tasks** | **Hours** | **Project Milestone** | **Deliverables** |
 | **1** | Feb 27 | Excel Decision Matrix + Data Cleaning | Build and test Excel decision matrix; clean coastal climate CSVs and validate data types | 5 hrs | Project 1 data ready for import | Cleaned CSVs & Excel matrix |
 | **2** | Feb 28 | SQL Setup & Basics | Create coastal climate database; import cleaned CSVs; run basic SELECT/INSERT queries | 5 hrs | DB initialized | SQL schema + import logs |
-| **3** | Mar 1 | Advanced SQL + Validation | Work with joins, GROUP BY, and views; validate schema integrity |-| Verified data warehouse | Advanced SQL scripts |
+| **3** | Mar 1 | Advanced SQL + Validation | Work with joins, GROUP BY, and views; validate schema integrity | 5 hrs | Verified data warehouse | Advanced SQL scripts |
 | **4** | Mar 2 | Python MOOC 1–2 + Tableau Sprint | Python fundamentals (variables, loops); connect Tableau to SQL DB; build first climate visualization |- | Project 1 → Tableau phase | Dashboard prototype |
 | **5** | Mar 3 | Project 1 Polish + Python MOOC 3–4 | Refine Tableau dashboard; Python functions and file handling | - | **Project 1 COMPLETE** | Published dashboard + summary |
 | **6** | Mar 4 | Tableau Advanced + Python MOOC 5–6 | Develop calculated fields, improve dashboard design; Python strings/sets | - | **Project 2 → Tableau** | Trail connectivity setup |
